@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<title>Rbmail.in | SMTP</title>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/allcon.css">
+</head>
+<body>  
+<header>
+  <div class="navbar">
+<ul>
+<li class="em"><a href="index.html">E-Mail</a></li> 
+<li><a href="SMTP.html">SMTP</a></li>
+<li><a href="POP.html">POP and POP3</a></li>
+<li><a href="IMAP.html">IMAP</a></li>
+<li><a href="MIME.html">MIME</a></li>
+</ul><hr color="lightyellow">
+</div>
+
+
+</header>
+  
+ <h1>SMTP</h1>
+<section>
+   
+<p>When Jonathan Postel wrote the SMTP definition RFC 821 in 1982, the internet was minuscule in comparison with today’s pervasive mix of commercial, governmental, and private interests. At that time, it mostly comprised a small collection of military installations, universities, and corporate research laboratories. Connections were slow and unreliable, and the number of hosts was small enough that all of the participants could recognize each other. In this early setting, SMTP’s emphasis on reliability instead of security was reasonable and contributed to its wide adoption.</p>
+<p> Most users helped each other by configuring their mail servers as “open relays”. That meant that each cooperative host would accept mail meant for other systems and relay it toward its final destination. This way, email transfer on the fledgling internet stood a reasonable chance of eventual delivery. Most administrators were happy to help their peers? And receive their help in return.</p>
+<p>Spam has existed since at least 1978, when an eager DEC sales representative sent an announcement of a product demonstration to a couple hundred recipients. The resulting outcry was sufficient to dissuade most users from repeating the experiment. This changed in the late 1990s: millions of individuals discovered the internet and signed up for inexpensive personal accounts and advertisers found a large and willing audience in this new medium.</p>
+
+ <center><img src="./image/smtp.png" alt="smtp.png" width="75%" hight="150%"></center> 
+ <p>1. Simple Mail Transfer protocol is the standard protocol for e-mail service on a TCP/IP network. </p>
+ 	<p>2. SMTP is an application-layer protocol that enables the transmission and delivery of email over the internet.</p>
+ 	<p>3. SMTP works on the following ports:- <br>
+ 		  a} Port 25: Standard SMTP port ==> Often blocked by ISPs and cloud providers.<br>
+		  b} Port 465: Out-of-date (deprecated) port for secure SMTP ==> Do not use unless absolutely necessary.<br>
+		  c} Port 587: Modern port for secure SMTP ==> The best choice for SparkPost and modern apps.<br>
+		  d} Port 2525: Alternative, non-standard SMTP port ==> Use it An alternative in cases when standard ports are not available.</p>
+ 
+
+</font>
+</section>
+
+<div class="cp">Copyright &copyR.K.Bharti 2022 </div>
+  </body>
+ </html>
