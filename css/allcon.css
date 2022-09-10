@@ -10,14 +10,39 @@ body {
     padding: 0px;
     line-height: 30px;
     color: rgb(236, 255, 253);
+    
 }
+
 .navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* .navbar {
     margin: 0px;
     padding-bottom: 10px;
     font-weight: bold;
     font-size: 16px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+} */
 
 
 ul {
@@ -25,7 +50,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #999899;
+/*   background-color: #999899; */
 
 }
 
@@ -42,9 +67,9 @@ ul li {
 
 ul li a {
   display: block;
-  background-color: lightgreen;
+/*   background-color: lightgreen; */
   border-left: 1px solid black;
-  color: white;
+/*   color: white; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
