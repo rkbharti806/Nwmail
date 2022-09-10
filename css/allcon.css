@@ -36,6 +36,13 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+
+.navbar li.em {
+  float: right;
+  background-color: #04AA6D;
+  color: white;
+}
+
 /* .navbar {
     margin: 0px;
     padding-bottom: 10px;
@@ -45,21 +52,21 @@ body {
 } */
 
 
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 /*   background-color: #999899; */
 
-}
+} */
 
-.em{
+/* .em{
   list-style-type: none;
   float: left;
 /*    font-family: roboto; */
 /*   font-size: 40px; */
-}
+} */
 
 ul li {
   float: right;
